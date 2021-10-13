@@ -1,1 +1,1 @@
-Dataframe solutions using pandas.
+Dataframe solutions using pandas in jupyter notebook.
