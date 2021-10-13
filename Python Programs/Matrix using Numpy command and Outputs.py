@@ -1,0 +1,23 @@
+#a = np.ones(4)
+#b = np.arange(1,5)
+#a.concatenate((a,b), axis=0)
+#b.concatenate((a,b.T),axis=1)
+#c.concatenate((a,b),axis=None)
+#d.vstack((a, b))
+#e.hstack((a, b))
+
+
+import numpy as np
+a = np.ones(4)
+b = np.arange(1,5)
+print(c)
+print(d)
+print("a)",np.concatenate((a,b), axis=0))
+print("\r")
+print("b)",np.concatenate((a,b.T),axis=1))
+print("\r")
+print("c)",np.concatenate((a,b),axis=None))
+print("\r")
+print("d)",np.vstack((a, b)))
+print("\r")
+print("e)",np.hstack((a, b))
